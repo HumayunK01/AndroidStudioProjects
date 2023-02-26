@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:textColor="#18363E"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="top|left"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booleans"
+        android:textColor="#5F97AA"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="top|right"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Characters"
+        android:textColor="#2D5F6E"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrays"
+        android:textColor="#3E88A5"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="bottom|left"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Structures"
+        android:textColor="#93C4D1"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="bottom|right"
+        android:textAlignment="center"/>
+
+</FrameLayout>
