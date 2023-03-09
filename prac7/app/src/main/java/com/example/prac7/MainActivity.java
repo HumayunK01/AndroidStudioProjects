@@ -1,15 +1,11 @@
 package com.example.prac7;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
     private TextView t1, t2;
     private EditText e1, e2;
@@ -26,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         t2 = (TextView) findViewById(R.id.Display2);
 
         b1 = (Button) findViewById(R.id.Submit);
-
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
